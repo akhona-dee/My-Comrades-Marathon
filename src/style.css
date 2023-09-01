@@ -1,0 +1,150 @@
+
+        h1 {
+          text-align: center;
+          color: black;
+          background-color:(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+          font-weight: bold;
+          border: 0px solid black;
+          padding: 0px;
+          margin: 0.2px;
+          margin-top: 0%;
+          border-radius: 10px;
+      
+        }
+    h2 {
+        font-size: 20px;
+        color:black;
+        background-color: #FACB0B;       
+        text-align: center;
+        border: 1px solid #10100f;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-block-start: 0.5px;
+        margin-block-end: 10px;
+    }
+
+    h3 {
+      text-align: center;
+    }
+   
+  * {
+  box-sizing: border-box;
+  
+}
+
+/* The grid: Two equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  border: #10100f;
+  border-radius: 20px;
+
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+  margin: auto;
+  grid-column: 1;
+  display: grid;
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: grid;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+  .learn-more {
+    color: #FACB0B;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer {
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: black;
+    padding: 0%;
+    
+    }
+
+  .footer:hover{
+    text-decoration: none;
+    color:#FACB0B;
+  }
+
+    body {
+      background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+      color: #fff;
+      margin: 0%;
+      padding: 0%;
+    }
+     p {
+      color:black;
+      line-height: 1.5;
+      font-size: 14px;
+      margin: 20px 0 10px;
+      padding: 0%;  
+      color: #fff;  
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+     }
+        img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 90%;
+        }
+
+    .learn-more:hover {
+      text-decoration: underline;
+    }
+    
+     button {
+      display: block;
+      margin: auto;
+      padding: 15px 15px;
+      background-color: #FACB0B;
+      color: black;
+      font-size: 15px;
+      border: none;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+      transition: all 200ms ease-in-out;
+      border-radius: 6px;
+      margin-top: 5%;
+     }
+
+    button:hover {
+      background-color: #fdfcfb;
+      opacity: 0.9;
+      cursor: pointer;
+      transition: all 200ms ease-in-out;
+    }
+   
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
